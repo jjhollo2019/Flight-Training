@@ -3376,16 +3376,17 @@ public final class R {
     public static final int level=0x7f0e002a;
     public static final int name=0x7f0e002b;
     public static final int newGame=0x7f0e002c;
-    public static final int playAgainDialog=0x7f0e002d;
-    public static final int quitDialog=0x7f0e002e;
-    public static final int rank=0x7f0e002f;
-    public static final int readyButton=0x7f0e0030;
-    public static final int score=0x7f0e0031;
-    public static final int search_menu_title=0x7f0e0032;
-    public static final int status_bar_notification_info_overflow=0x7f0e0033;
-    public static final int strikeText=0x7f0e0034;
-    public static final int submitInitials=0x7f0e0035;
-    public static final int winningTitle=0x7f0e0036;
+    public static final int planeDesc=0x7f0e002d;
+    public static final int playAgainDialog=0x7f0e002e;
+    public static final int quitDialog=0x7f0e002f;
+    public static final int rank=0x7f0e0030;
+    public static final int readyButton=0x7f0e0031;
+    public static final int score=0x7f0e0032;
+    public static final int search_menu_title=0x7f0e0033;
+    public static final int status_bar_notification_info_overflow=0x7f0e0034;
+    public static final int strikeText=0x7f0e0035;
+    public static final int submitInitials=0x7f0e0036;
+    public static final int winningTitle=0x7f0e0037;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0f0000;
