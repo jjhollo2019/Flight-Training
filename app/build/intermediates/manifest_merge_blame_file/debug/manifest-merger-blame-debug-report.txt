@@ -1,0 +1,112 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.frameworktest"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml
+10
+11    <uses-feature
+11-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:4:5-84
+12        android:name="android.hardware.camera"
+12-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:4:19-57
+13        android:required="true" />
+13-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:4:58-81
+14    <uses-feature
+14-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:5:5-97
+15        android:name="android.hardware.sensor.accelerometer"
+15-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:5:19-71
+16        android:required="true" />
+16-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:5:72-95
+17
+18    <uses-permission
+18-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:6:5-7:38
+19        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+19-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:6:22-78
+20        android:maxSdkVersion="18" />
+20-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:7:9-35
+21
+22    <application
+22-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:8:5-45:19
+23        android:allowBackup="true"
+23-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:9:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] /home/j/.gradle/caches/transforms-2/files-2.1/f01b27bb220ecb79298884ef36a7a2fb/core-1.1.0/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:10:9-43
+27        android:label="@string/app_name"
+27-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:11:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:12:9-54
+29        android:supportsRtl="true"
+29-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:13:9-35
+30        android:testOnly="true"
+31        android:theme="@style/AppTheme" >
+31-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:14:9-40
+32        <provider
+32-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:15:9-23:20
+33            android:name="androidx.core.content.FileProvider"
+33-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:16:13-62
+34            android:authorities="com.example.android.fileprovider"
+34-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:17:13-67
+35            android:exported="false"
+35-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:18:13-37
+36            android:grantUriPermissions="true" >
+36-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:19:13-47
+37            <meta-data
+37-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:20:13-22:64
+38                android:name="android.support.FILE_PROVIDER_PATHS"
+38-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:21:17-67
+39                android:resource="@xml/file_paths" />
+39-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:22:17-51
+40        </provider>
+41
+42        <activity
+42-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:24:9-26:52
+43            android:name="com.example.flight_training.HighscoreActivity"
+43-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:25:13-46
+44            android:screenOrientation="landscape" />
+44-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:26:13-50
+45        <activity
+45-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:27:9-29:53
+46            android:name="com.example.flight_training.Game"
+46-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:28:13-33
+47            android:screenOrientation="landscape" />
+47-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:29:13-50
+48        <activity
+48-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:30:9-32:53
+49            android:name="com.example.flight_training.HowToPlay"
+49-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:31:13-38
+50            android:screenOrientation="landscape" />
+50-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:32:13-50
+51        <activity
+51-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:33:9-35:53
+52            android:name="com.example.flight_training.Splash"
+52-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:34:13-35
+53            android:screenOrientation="landscape" />
+53-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:35:13-50
+54        <activity
+54-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:36:9-44:20
+55            android:name="com.example.flight_training.MainActivity"
+55-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:37:13-41
+56            android:screenOrientation="landscape" >
+56-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:38:13-50
+57            <intent-filter>
+57-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:39:13-43:29
+58                <action android:name="android.intent.action.MAIN" />
+58-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:40:17-69
+58-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:40:25-66
+59
+60                <category android:name="android.intent.category.LAUNCHER" />
+60-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:42:17-77
+60-->/home/j/Documents/Clemson/Fall/4150/Assignments/Flight/app/src/main/AndroidManifest.xml:42:27-74
+61            </intent-filter>
+62        </activity>
+63    </application>
+64
+65</manifest>
